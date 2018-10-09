@@ -5,7 +5,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Employee Tracker</title>
+  <title>Train Going Anywhere</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -44,7 +44,7 @@
 
       <div class="col-md-12">
 
-        <!-- Current Employees-->
+        <!-- Current Trains-->
         <div class="card mb-4">
           <div class="card-header" style="background-color: darkslategray; color:azure">Current Train Schedule</div>
           <div class="card-body">
@@ -68,7 +68,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <!-- Add Employee  -->
+        <!-- Add Train  -->
         <div class="card mb-4">
           <div class="card-header" style="background-color: darkslategray; color:azure">Add Train</div>
           <div class="card-body">
@@ -76,22 +76,22 @@
             <!-- Entry Form -->
             <form>
               <div class="form-group">
-                <label for="employee-name-input">Train Name</label>
-                <input class="form-control" id="employee-name-input" placeholder="Jane Doe" type="text">
+                <label for="train-name-input">Train Name</label>
+                <input class="form-control" id="train-name-input" type="text">
               </div>
               <div class="form-group">
                 <label for="role-input">Destination</label>
-                <input class="form-control" id="role-input" placeholder="CEO" type="text">
+                <input class="form-control" id="dest-input" placeholder="Anywhere" type="text">
               </div>
               <div class="form-group">
                 <label for="start-input">First Train Time(HH:mm - military time)</label>
-                <input class="form-control" id="start-input" placeholder="01/08/1989" type="text">
+                <input class="form-control" id="first-train-input" placeholder="24:00" type="text">
               </div>
               <div class="form-group">
                 <label for="rate-input">Frequency</label>
-                <input class="form-control" id="rate-input" placeholder="200000" type="text">
+                <input class="form-control" id="freq-input" type="text">
               </div>
-              <button class="btn btn-primary float-right" id="add-employee-btn" style="background-color: darkslategray; color:azure">Submit</button>
+              <button class="btn btn-primary float-right" id="add-train-btn" style="background-color: darkslategray; color:azure">Submit</button>
             </form>
 
           </div>
